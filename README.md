@@ -1,6 +1,6 @@
 # Action Cable Examples
 
-A collection of examples showcasing the capabilities of Action Cable.
+An example showcasing the capabilities of Action Cable using Ruby 2.4.0 and Rails 5.0.1.
 
 ## Dependencies
 
