@@ -43,5 +43,5 @@ Rails.application.configure do
   config.action_cable.url = 'ws://192.168.40.125:28080'
 
   # Set request origin since dev is not on localhost
-  config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/]
+  config.action_cable.allowed_request_origins = [/http:\/\/192\.168\.40\.125/, /https:\/\/*/]
 end
