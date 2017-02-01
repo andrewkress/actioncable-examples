@@ -40,5 +40,8 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   # Set Action Cable server url for consumer connection
-  config.action_cable.url = 'ws://localhost:28080'
+  config.action_cable.url = 'ws://192.168.40.125:28080'
+
+  # Set request origin since dev is not on localhost
+  config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/]
 end
